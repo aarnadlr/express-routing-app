@@ -1,0 +1,22 @@
+{
+  "name": "express-routing-app",
+  "version": "1.0.0",
+  "description": "Express routing application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarnadlr/express-routing-app.git"
+  },
+  "author": "Aaron Adler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarnadlr/express-routing-app/issues"
+  },
+  "homepage": "https://github.com/aarnadlr/express-routing-app#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
