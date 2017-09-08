@@ -4,13 +4,11 @@
 var express = require("express");
 var app = express();
 
-
 // 2. ROUTES
 app.get("/", function(req, res) {
   console.log("Someone made a REQUEST to /ROOT!!");
   res.send("Hi there, welcome to my assignment.");
 });
-
 
 ////
 
@@ -80,12 +78,6 @@ app.get("/repeat/:word/:num", function(req, res) {
   // res.send(word * num);
 
 })
-
-
-
-
-
-
 
 
 //////////
